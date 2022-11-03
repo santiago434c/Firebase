@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- CLASE  -->
+    <form id="taskformC">
+
+        <label for="title">Title</label>
+        <input type="text" placeholder="Titulo de la clase" id="taskTitleC">
+
+        <label for="description">Description</label>
+        <textarea name="" id="taskCDescription" rows="3" placeholder="Descripcion de la clase"></textarea>
+
+        <button id="btnTaskSaveC">Save</button>
+
+    </form>
+
+
+    <!-- ESTUDIANTE  -->
+    <form id="taskformE">
+
+        <label for="nombre">Nombre</label>
+        <input type="text" placeholder="Nombre del estudiante" id="taskNombreE">
+
+        <label for="Apellidos">Apellidos</label>
+        <textarea name="" id="taskEApellidos" rows="3" placeholder="Apellidos del estudiante"></textarea>
+
+        <button id="btnTaskSaveE">Save</button>
+
+    </form>
+
+    <!-- MATRICULA  -->
+    <form id="taskformM">
+
+        <label for="idMatricula">ID matricula</label>
+        <input type="text" placeholder="Id Matricula" id="taskIdmatricula">
+
+        <label for="idEstudiante">ID del estudiante</label>
+        <textarea name="" id="taskIdEstudiante" rows="3" placeholder="ID del estudiante"></textarea>
+
+        <label for="idClase">ID la clase</label>
+        <textarea name="" id="taskIdClase" rows="3" placeholder="ID de la clase"></textarea>
+
+        <button id="btnTaskSaveM">Save</button>
+
+    </form>
+
+    <div id="taskContainer"></div>
+
+    <script type="module" src="index2.js"></script>
+    
+</body>
+</html>
